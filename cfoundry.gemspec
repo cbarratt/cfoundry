@@ -23,6 +23,8 @@ Gem::Specification.new do |s|
   s.add_dependency "jwt", "~> 1.5"
   s.add_dependency "multi_json", "~> 1.7"
   s.add_dependency "multipart-post", "~> 1.1"
+  s.add_dependency "rubyzip", "~> 1.0"
+  s.add_dependency "zip-zip", "~> 0.3"
 
   s.add_development_dependency 'bundler', '~> 1.9'
   s.add_development_dependency "pry"
